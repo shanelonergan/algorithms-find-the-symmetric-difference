@@ -18,8 +18,12 @@ symDiff([1, 2, 3], [5, 2, 1, 4]) // working
 
 function sym(args) {
   const argArr = Array.prototype.slice.call(arguments)
+
+  console.log(argArr)
   
-  
+  const argLength = argArr.length
+
+  console.log(argLength)
 }
 
 sym([1, 2, 3], [5, 2, 1, 4]);
