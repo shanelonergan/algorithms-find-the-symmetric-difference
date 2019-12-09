@@ -27,7 +27,8 @@ function sym(args) {
 
   let position = 0 
   while (position <= argLength) {
-    
+    argArr.slice(position, position + 1)
+    position += 1
   }
 }
 
