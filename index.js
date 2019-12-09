@@ -25,7 +25,10 @@ function sym(args) {
 
   console.log(argLength)
 
-
+  let position = 0 
+  while (position <= argLength) {
+    
+  }
 }
 
 sym([1, 2, 3], [5, 2, 1, 4]);
