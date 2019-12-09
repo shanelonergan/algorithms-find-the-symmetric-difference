@@ -14,7 +14,7 @@ const symDiff = (arr1, arr2) => {
   return uniqueArr
 }
 
-symDiff([1, 2, 3], [5, 2, 1, 4])
+symDiff([1, 2, 3], [5, 2, 1, 4]) // working
 
 function sym(args) {
   const argArr = Array.prototype.slice.call(arguments)
