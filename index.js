@@ -21,16 +21,7 @@ function sym(args) {
 
   console.log(argArr)
   
-  const argLength = argArr.length
-
-  console.log(argLength)
-
-  let position = 0 
-  while (position <= argLength) {
-    const workingArr = argArr.slice(position, position + 1)
-    position += 1
-    console.log(workingArr)
-  }
+  args.reduce(symDiff)
 }
 
 sym([1, 2, 3], [5, 2, 1, 4]);
